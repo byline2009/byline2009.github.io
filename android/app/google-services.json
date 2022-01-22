@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "923764047577",
+    "project_id": "logintutorialapp-312cd",
+    "storage_bucket": "logintutorialapp-312cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923764047577:android:2f89302527c01dec9308c8",
+        "android_client_info": {
+          "package_name": "com.duongtran.bloc_login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923764047577-ka2290od7fvj865o0jl3r9tjhkepng8u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.duongtran.bloc_login",
+            "certificate_hash": "55485f8099175933043084c7ef21a4b749ad66c1"
+          }
+        },
+        {
+          "client_id": "923764047577-e0u2tm98h0lup83njqqihouqb3713ovr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaMERVu6GDXNdKax9r2UBRMnyVgDL_GqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923764047577-e0u2tm98h0lup83njqqihouqb3713ovr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
