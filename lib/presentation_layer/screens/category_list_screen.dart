@@ -1,6 +1,6 @@
-import 'package:bloc_login/bloc_rxdart/get_categories_bloc.dart';
-import 'package:bloc_login/models/category.dart';
-import 'package:bloc_login/models/category_response.dart';
+import 'package:bloc_login/bloc_layer/bloc_rxdart/get_categories_bloc.dart';
+import 'package:bloc_login/data_layer/models/category.dart';
+import 'package:bloc_login/data_layer/models/category_response.dart';
 import 'package:flutter/material.dart';
 
 class CategoryListScreen extends StatefulWidget {

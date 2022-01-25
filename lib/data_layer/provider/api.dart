@@ -1,8 +1,8 @@
 import 'dart:io';
 import 'dart:convert';
-import 'package:bloc_login/provider/exception.dart';
-import 'package:bloc_login/provider/keys.dart';
-import 'package:bloc_login/provider/locator.dart';
+import 'package:bloc_login/data_layer/provider/exception.dart';
+import 'package:bloc_login/data_layer/provider/keys.dart';
+import 'package:bloc_login/data_layer/provider/locator.dart';
 import 'package:http/http.dart' as http;
 
 import 'package:package_info/package_info.dart';

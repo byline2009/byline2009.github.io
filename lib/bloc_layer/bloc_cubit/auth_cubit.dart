@@ -1,10 +1,8 @@
 import 'package:bloc/bloc.dart';
-import 'package:bloc_login/services/authentication_service.dart';
 import 'package:equatable/equatable.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:provider/provider.dart';
 part 'auth_state.dart';
 
 class AuthCubit extends Cubit<AuthState> {

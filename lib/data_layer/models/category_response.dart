@@ -1,4 +1,4 @@
-import 'package:bloc_login/models/category.dart';
+import 'package:bloc_login/data_layer/models/category.dart';
 
 class CategoryResponse {
   final List<Category> categories;

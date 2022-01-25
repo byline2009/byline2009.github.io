@@ -1,4 +1,4 @@
-import 'package:bloc_login/provider/api.dart';
+import 'package:bloc_login/data_layer/provider/api.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'logger.dart';

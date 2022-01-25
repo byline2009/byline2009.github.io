@@ -1,5 +1,5 @@
-import 'package:bloc_login/models/user_response.dart';
-import 'package:bloc_login/screens/home_screen.dart';
+import 'package:bloc_login/data_layer/models/user_response.dart';
+import 'package:bloc_login/presentation_layer/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';

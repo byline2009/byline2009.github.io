@@ -1,4 +1,4 @@
-import 'package:bloc_login/models/category_response.dart';
+import 'package:bloc_login/data_layer/models/category_response.dart';
 import 'package:flutter/cupertino.dart';
 
 abstract class CategoryEvent {}

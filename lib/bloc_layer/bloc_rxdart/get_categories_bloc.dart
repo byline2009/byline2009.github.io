@@ -1,5 +1,5 @@
-import 'package:bloc_login/models/category_response.dart';
-import 'package:bloc_login/services/authentication_service.dart';
+import 'package:bloc_login/data_layer/models/category_response.dart';
+import 'package:bloc_login/data_layer/repositories/authentication_service.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/subjects.dart';
 

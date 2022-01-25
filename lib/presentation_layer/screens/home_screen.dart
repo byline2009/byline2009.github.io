@@ -1,7 +1,7 @@
-import 'package:bloc_login/models/user_response.dart';
-import 'package:bloc_login/screens/category_list_screen_1.dart';
-import 'package:bloc_login/screens/login_screen.dart';
-import 'package:bloc_login/screens/category_list_screen.dart';
+import 'package:bloc_login/data_layer/models/user_response.dart';
+import 'package:bloc_login/presentation_layer/screens/category_list_screen_1.dart';
+import 'package:bloc_login/presentation_layer/screens/login_screen.dart';
+import 'package:bloc_login/presentation_layer/screens/category_list_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';

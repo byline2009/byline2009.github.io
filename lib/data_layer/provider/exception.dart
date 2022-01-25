@@ -1,4 +1,4 @@
-import 'package:bloc_login/provider/logger.dart';
+import 'package:bloc_login/data_layer/provider/logger.dart';
 import 'package:logger/logger.dart';
 
 class CommonException implements Exception {

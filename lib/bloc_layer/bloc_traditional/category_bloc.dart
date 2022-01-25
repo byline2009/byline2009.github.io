@@ -1,8 +1,8 @@
-import 'package:bloc_login/bloc_cubit/auth_cubit.dart';
-import 'package:bloc_login/bloc_traditional/category_event.dart';
-import 'package:bloc_login/bloc_traditional/category_state.dart';
-import 'package:bloc_login/models/category_response.dart';
-import 'package:bloc_login/services/authentication_service.dart';
+import 'package:bloc_login/bloc_layer/bloc_cubit/auth_cubit.dart';
+import 'package:bloc_login/bloc_layer/bloc_traditional/category_event.dart';
+import 'package:bloc_login/bloc_layer/bloc_traditional/category_state.dart';
+import 'package:bloc_login/data_layer/models/category_response.dart';
+import 'package:bloc_login/data_layer/repositories/authentication_service.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:provider/provider.dart';
 
