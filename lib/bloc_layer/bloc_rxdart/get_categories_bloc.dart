@@ -1,5 +1,5 @@
 import 'package:bloc_login/data_layer/models/category_response.dart';
-import 'package:bloc_login/data_layer/repositories/authentication_service.dart';
+import 'package:bloc_login/data_layer/repositories/category_service.dart';
 import 'package:provider/provider.dart';
 import 'package:rxdart/subjects.dart';
 
@@ -8,10 +8,9 @@ class CategoriesListBloc {
       BehaviorSubject<CategoryResponse>();
 
   getCategories(dynamic context) async {
-    AuthenticationService _authenticationService =
-        Provider.of(context, listen: false);
+    CategoryService _categoryService = Provider.of(context, listen: false);
     CategoryResponse _categoryResponse =
-        await _authenticationService.getCategories({});
+        await _categoryService.getCategories({});
     _subject.sink.add(_categoryResponse);
   }
 

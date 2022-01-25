@@ -48,14 +48,9 @@ class _CategoryListScreenState extends State<CategoryListScreen1> {
   }
 
   Widget _buildLoadingWidget() {
-    return Center(
-        child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      crossAxisAlignment: CrossAxisAlignment.center,
-      children: const [
-        SizedBox(height: 25, child: CircularProgressIndicator())
-      ],
-    ));
+    return const Center(
+        child: SizedBox(
+            height: 25, width: 25, child: CircularProgressIndicator()));
   }
 
   Widget _buildErrorWidget(String error) {
