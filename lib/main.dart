@@ -2,6 +2,7 @@ import 'package:bloc_login/helper/app_routes.dart';
 import 'package:bloc_login/data_layer/provider/locator.dart';
 import 'package:bloc_login/data_layer/provider/providers.dart';
 import 'package:bloc_login/presentation_layer/screens/category_list_screen.dart';
+import 'package:bloc_login/presentation_layer/screens/category_list_screen_1.dart';
 import 'package:bloc_login/presentation_layer/screens/forgot_password_screen.dart';
 import 'package:bloc_login/presentation_layer/screens/home_screen.dart';
 import 'package:bloc_login/presentation_layer/screens/login_screen.dart';
@@ -32,9 +33,10 @@ class MyApp extends StatelessWidget {
           routes: <String, WidgetBuilder>{
             AppRoutes.login: (_) => const LoginScreen(),
             AppRoutes.home: (_) => const HomeScreen(),
-            AppRoutes.signup: (_) => const SignUpScreen(),
+            AppRoutes.signUp: (_) => const SignUpScreen(),
             AppRoutes.forgotPassword: (_) => const ForgotPasswordScreen(),
-            AppRoutes.categorylist: (_) => const CategoryListScreen(),
+            AppRoutes.categoryList: (_) => const CategoryListScreen(),
+            AppRoutes.categoryList1: (_) => const CategoryListScreen1(),
           }),
     );
   }

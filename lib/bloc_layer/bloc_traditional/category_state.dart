@@ -1,9 +1,12 @@
 import 'package:bloc_login/data_layer/models/category_response.dart';
+import 'package:equatable/equatable.dart';
 
-abstract class CategoryState {
+abstract class CategoryState extends Equatable {
   final CategoryResponse? categoryResponse;
   final String? error;
   CategoryState({this.categoryResponse, this.error});
+  @override
+  List<Object> get props => [];
 }
 
 class CategoryStateDefault extends CategoryState {}

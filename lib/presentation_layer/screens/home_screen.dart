@@ -1,4 +1,5 @@
 import 'package:bloc_login/data_layer/models/user_response.dart';
+import 'package:bloc_login/helper/app_routes.dart';
 import 'package:bloc_login/presentation_layer/screens/category_list_screen_1.dart';
 import 'package:bloc_login/presentation_layer/screens/login_screen.dart';
 import 'package:bloc_login/presentation_layer/screens/category_list_screen.dart';
@@ -77,7 +78,7 @@ class _HomeScreenState extends State<HomeScreen> {
               MaterialButton(
                   minWidth: double.infinity,
                   height: 60,
-                  child: const Text("Go to category list ",
+                  child: const Text("Go to category list with rxdart ",
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w500,
@@ -85,16 +86,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   shape: const RoundedRectangleBorder(
                       side: BorderSide(color: Colors.black54)),
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => CategoryListScreen1()));
+                    Navigator.of(context).pushNamed(AppRoutes.categoryList);
                   }),
-              SizedBox(height: 20),
+              const SizedBox(height: 20),
               MaterialButton(
                   minWidth: double.infinity,
                   height: 60,
-                  child: const Text("Go to category list with cubit",
+                  child: const Text("Go to category list with bloc ",
                       style: TextStyle(
                         fontSize: 18,
                         fontWeight: FontWeight.w500,
@@ -102,10 +100,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   shape: const RoundedRectangleBorder(
                       side: BorderSide(color: Colors.black54)),
                   onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => CategoryListScreen()));
+                    Navigator.of(context).pushNamed(AppRoutes.categoryList1);
                   })
             ],
           ),

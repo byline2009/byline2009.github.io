@@ -35,10 +35,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           SnackBar(content: Text(state.errorMessage!)));
                   } else if (state is AuthLoginSuccess) {
                     formKey.currentState!.reset();
-                    Navigator.pushReplacement(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => const HomeScreen()));
+                    Navigator.pushReplacementNamed(context, AppRoutes.home);
                   }
                 },
                 builder: (context, state) => _buildLoginScreen())),
@@ -126,7 +123,7 @@ class _LoginScreenState extends State<LoginScreen> {
               Divider(height: 20, endIndent: 10, indent: 8),
               CustomButton(
                   onPressed: () =>
-                      Navigator.pushNamed(context, AppRoutes.signup),
+                      Navigator.pushNamed(context, AppRoutes.signUp),
                   child: const Text("Create an account"))
             ])))));
   }
